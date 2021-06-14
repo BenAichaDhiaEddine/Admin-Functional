@@ -1,0 +1,118 @@
+//
+// _badge.scss
+//
+
+// Soft badge
+@mixin badge-variant-soft($bg) {
+  color: $bg;
+  background-color: rgba($bg, 0.18);
+
+  &[href] {
+    @include hover-focus {
+      color: $bg;
+      text-decoration: none;
+      background-color: rgba($bg, 0.4);
+    }
+  }
+}
+
+@each $color, $value in $theme-colors {
+  .badge-soft-#{$color} {
+      @include badge-variant-soft($value);
+  }
+}
+
+// Dark badge
+
+.badge-dark{
+  color: $light;
+}
+
+.stamp {
+  transform: rotate(12deg);
+  cursor: not-allowed;
+  z-index: 2;
+  margin-top: 50%;
+  margin-right: 35%;
+  position: absolute;
+  color: $secondary;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  border: 0.25rem solid #555;
+  display: inline-block;
+  padding: 0.25rem 1rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  -webkit-mask-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/8399/grunge.png');
+  -webkit-mask-size: 944px 604px;
+  mix-blend-mode: multiply;
+
+}
+
+.stamp-pulse{
+  opacity: 0;
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  animation-delay:2.5s;
+  -webkit-animation-delay:2.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes pulse{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity:.50;
+    transform-origin: 50% 50%;
+    transform: rotate(-2deg) scale(5);
+    transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  }
+  100%{
+    opacity:1;
+    transform: rotate(-15deg) scale(1);
+  }
+}
+@keyframes pulse{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity:.50;
+    transform-origin: 50% 50%;
+    transform: rotate(-2deg) scale(5);
+    transition: all .3s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  }
+  100%{
+    opacity:1;
+    transform: rotate(-15deg) scale(1);
+  }
+}
+
+.is-nope {
+  color: $danger;
+  border: 0.5rem double $danger;
+  transform: rotate(3deg);
+  -webkit-mask-position: 2rem 3rem;
+}
+
+.is-approved {
+  color: $success;
+  border: 0.5rem solid $success;
+  -webkit-mask-position: 13rem 6rem;
+  transform: rotate(-14deg);
+  border-radius: 0;
+}
+
+.is-draft {
+  color: $gray-400;
+  border: 1rem double  $gray-400;
+  transform: rotate(-5deg);
+  font-size: 6rem;
+  border-radius: 0;
+  padding: 0.5rem;
+}

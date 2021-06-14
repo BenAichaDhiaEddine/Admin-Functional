@@ -1,0 +1,26 @@
+
+//
+// Form-Upload
+//
+.dropzone-form {
+  cursor: pointer;
+  border: 1px dashed $gray-500;
+  background: transparent;
+  border-radius: $border-radius;
+  transition: all 200ms;
+  &:hover{
+    border-color: $gray-700;
+  }
+}
+/* Dropzone */
+.dropzone {
+  min-height: 230px;
+  border: 2px dashed $gray-600;
+  background: $card-bg;
+  border-radius: 6px;
+
+  .dz-message {
+    font-size: 24px;
+    width: 100%;
+  }
+}
