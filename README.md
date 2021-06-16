@@ -6,5 +6,32 @@ Simulateur de credit (Admin functional) est un espace pour satisfaire les admini
 
 Cette application est développé avec le MERN STACK (Mongo Db - Express JS - react js et Node js) . Aussi nous avons utilisé Redux et Redux-Saga, material-ui , react Strap
 
+page de login
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/login%20page.PNG)
+page d'acceuil et dashboard
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/Capture.PNG)
+page de gérer le profil 
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/profile%20page.PNG)
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/profile%20mot%20de%20passe.PNG)
+page de gérer les demandes des credits 
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/liste%20des%20demandes%20des%20credits.PNG)
+page configrutation de la banque 
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/config.PNG)
+page gérer les corporate admin
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/3.PNG)
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/ajouter%20admin%20corporarte.PNG)
+page gérer les offres des credit
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/4.PNG)
+ajouter un offre de credit
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/ajouter%20offre%20de%20credit.PNG)
+gérer les conditions d'un offre
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/offre%20conditions.PNG)
+gérer les options d'un offre
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/7.PNG)
+page gérer les form builders
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/offre%20form%20builder.PNG)
+page ajouter un formulaire
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/add%20form%20builder.PNG)
+page créer un formulaire avec le formbuilder
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/form%20builder.PNG)
 
-add form builder.PNG
