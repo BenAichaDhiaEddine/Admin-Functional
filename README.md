@@ -34,4 +34,6 @@ page ajouter un formulaire
 ![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/add%20form%20builder.PNG)
 page créer un formulaire avec le formbuilder
 ![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/form%20builder.PNG)
+![](https://github.com/BenAichaDhiaEddine/Simulateur-de-credit-Admin-Functional-/blob/main/form%20builder%20edit%20input.PNG)
+
 
